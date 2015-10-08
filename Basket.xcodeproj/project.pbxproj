@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00DD30E91BC672190020684C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DD30E81BC672190020684C /* main.m */; };
+		00DD30EC1BC672190020684C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DD30EB1BC672190020684C /* AppDelegate.m */; };
+		00DD30EE1BC672190020684C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DD30ED1BC672190020684C /* Assets.xcassets */; };
+		00DD30F11BC672190020684C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DD30EF1BC672190020684C /* LaunchScreen.storyboard */; };
+		00DD30FB1BC672390020684C /* PCABasketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DD30F91BC672390020684C /* PCABasketViewController.m */; settings = {ASSET_TAGS = (); }; };
+		00DD30FC1BC672390020684C /* PCABasketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00DD30FA1BC672390020684C /* PCABasketViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		00DD31001BC672E90020684C /* Basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = 00DD30FE1BC672E90020684C /* Basketball.png */; settings = {ASSET_TAGS = (); }; };
+		00DD31011BC672E90020684C /* layout-of-a-court.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00DD30FF1BC672E90020684C /* layout-of-a-court.jpg */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00DD30E41BC672190020684C /* Basket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00DD30E81BC672190020684C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00DD30EA1BC672190020684C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00DD30EB1BC672190020684C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00DD30ED1BC672190020684C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00DD30F01BC672190020684C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00DD30F21BC672190020684C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00DD30F81BC672390020684C /* PCABasketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCABasketViewController.h; sourceTree = "<group>"; };
+		00DD30F91BC672390020684C /* PCABasketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCABasketViewController.m; sourceTree = "<group>"; };
+		00DD30FA1BC672390020684C /* PCABasketViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PCABasketViewController.xib; sourceTree = "<group>"; };
+		00DD30FE1BC672E90020684C /* Basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Basketball.png; sourceTree = "<group>"; };
+		00DD30FF1BC672E90020684C /* layout-of-a-court.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "layout-of-a-court.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00DD30E11BC672190020684C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00DD30DB1BC672190020684C = {
+			isa = PBXGroup;
+			children = (
+				00DD31021BC672EF0020684C /* Resources */,
+				00DD30FD1BC672460020684C /* Controllers */,
+				00DD30E61BC672190020684C /* Basket */,
+				00DD30E51BC672190020684C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00DD30E51BC672190020684C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00DD30E41BC672190020684C /* Basket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00DD30E61BC672190020684C /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				00DD30EA1BC672190020684C /* AppDelegate.h */,
+				00DD30EB1BC672190020684C /* AppDelegate.m */,
+				00DD30E71BC672190020684C /* Supporting Files */,
+			);
+			path = Basket;
+			sourceTree = "<group>";
+		};
+		00DD30E71BC672190020684C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00DD30ED1BC672190020684C /* Assets.xcassets */,
+				00DD30EF1BC672190020684C /* LaunchScreen.storyboard */,
+				00DD30F21BC672190020684C /* Info.plist */,
+				00DD30E81BC672190020684C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00DD30FD1BC672460020684C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				00DD30F81BC672390020684C /* PCABasketViewController.h */,
+				00DD30F91BC672390020684C /* PCABasketViewController.m */,
+				00DD30FA1BC672390020684C /* PCABasketViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		00DD31021BC672EF0020684C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00DD30FE1BC672E90020684C /* Basketball.png */,
+				00DD30FF1BC672E90020684C /* layout-of-a-court.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00DD30E31BC672190020684C /* Basket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00DD30F51BC672190020684C /* Build configuration list for PBXNativeTarget "Basket" */;
+			buildPhases = (
+				00DD30E01BC672190020684C /* Sources */,
+				00DD30E11BC672190020684C /* Frameworks */,
+				00DD30E21BC672190020684C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Basket;
+			productName = Basket;
+			productReference = 00DD30E41BC672190020684C /* Basket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00DD30DC1BC672190020684C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Paco Cardenal";
+				TargetAttributes = {
+					00DD30E31BC672190020684C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 00DD30DF1BC672190020684C /* Build configuration list for PBXProject "Basket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00DD30DB1BC672190020684C;
+			productRefGroup = 00DD30E51BC672190020684C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00DD30E31BC672190020684C /* Basket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00DD30E21BC672190020684C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DD31011BC672E90020684C /* layout-of-a-court.jpg in Resources */,
+				00DD30FC1BC672390020684C /* PCABasketViewController.xib in Resources */,
+				00DD30EE1BC672190020684C /* Assets.xcassets in Resources */,
+				00DD31001BC672E90020684C /* Basketball.png in Resources */,
+				00DD30F11BC672190020684C /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00DD30E01BC672190020684C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DD30EC1BC672190020684C /* AppDelegate.m in Sources */,
+				00DD30E91BC672190020684C /* main.m in Sources */,
+				00DD30FB1BC672390020684C /* PCABasketViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00DD30EF1BC672190020684C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00DD30F01BC672190020684C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00DD30F31BC672190020684C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00DD30F41BC672190020684C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00DD30F61BC672190020684C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Basket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pacocardenal.Basket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00DD30F71BC672190020684C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Basket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pacocardenal.Basket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00DD30DF1BC672190020684C /* Build configuration list for PBXProject "Basket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DD30F31BC672190020684C /* Debug */,
+				00DD30F41BC672190020684C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00DD30F51BC672190020684C /* Build configuration list for PBXNativeTarget "Basket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DD30F61BC672190020684C /* Debug */,
+				00DD30F71BC672190020684C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00DD30DC1BC672190020684C /* Project object */;
+}
